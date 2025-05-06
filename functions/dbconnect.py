@@ -3,12 +3,18 @@
 from bson.objectid import ObjectId
 import asyncio
 import json
+from pymongo.server_api import ServerApi
 from pymongo import MongoClient
 
+'''
 with open('config.json', 'r') as f:
     config = json.load(f)
+'''
 
-client = MongoClient("mongodb://localhost:27017/lonely")
+uri = "mongodb+srv://lonely:lonely@lonely.ofvfxgp.mongodb.net/?retryWrites=true&w=majority&appName=lonely"
+
+client = MongoClient(uri, server_api=ServerApi('1'))
+
 
 db = client.lonely
 
