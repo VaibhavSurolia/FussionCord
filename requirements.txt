@@ -1,0 +1,10 @@
+#This file will contain all requirements for the project
+
+fastapi
+aiohttp
+asyncio
+pycryptodomex
+pymongo
+onetimepad
+fastapi-socketio
+uvicorn

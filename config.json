@@ -1,0 +1,10 @@
+{
+    "password": "oppai",
+    "db":{
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "passwd": "oppai",
+        "db": "test"
+    }
+}
