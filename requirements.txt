@@ -1,5 +1,5 @@
 #This file will contain all requirements for the project
-
+Jinja2
 fastapi
 aiohttp
 asyncio
