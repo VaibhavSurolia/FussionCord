@@ -1,7 +1,7 @@
 #This file will contain all requirements for the project
 Jinja2
 fastapi
-aiohttp
+aiohttp == 3.5.4
 asyncio
 pycryptodomex
 pymongo
