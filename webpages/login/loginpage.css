@@ -1,0 +1,100 @@
+
+
+
+
+ 
+    * {
+      box-sizing: border-box;
+    }
+    
+   
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url(photo_2025-05-06_22-22-18.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    .form-container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.1); /* semi-transparent white */
+      backdrop-filter: blur(10px);          /* glass blur effect */
+      -webkit-backdrop-filter: blur(10px);  /* Safari support */
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* soft dark shadow */
+      border: 1px solid rgba(255, 255, 255, 0.2); /* frosted border */
+    }
+
+    
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .form-container p {
+      text-align: center;
+      font-size: 14px;
+      color: whitesmoke;
+      margin-bottom: 25px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+      color: whitesmoke ;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+  
+
+    .btn {
+      margin-top: 25px;
+      width: 100%;
+      padding: 14px;
+      background-color: #8f6593;
+      color: #cdcdcd;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #8f7192;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+    select {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      background-color: white;
+    }
+    
