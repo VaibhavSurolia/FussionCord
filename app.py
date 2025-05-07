@@ -32,7 +32,7 @@ async def index(request: Request):
 
 @app.route('/register/', methods=['GET'])
 async def index(request: Request):
-    return templates.TemplateResponse("login/loginpage.html", {"request": request})
+    return templates.TemplateResponse("register/loginpage.html", {"request": request})
 
 @app.get('/user/register')
 async def user_register(email: str, password: str, name: str, surname: str, birthdate: str, phone_number = None, city = None, country = None):
