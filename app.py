@@ -1,6 +1,6 @@
 #This will serve as our main file for the application
 
-import asyncio
+# import asyncio
 import aiohttp
 import uvicorn
 from fastapi import FastAPI, Request
@@ -61,4 +61,4 @@ async def user_remove(email: str, password: str):
 
 
 if __name__ == '__main__':
-    uvicorn.run("app:app", host="0.0.0.0", port=8000)
+    uvicorn.run("app:app", host="127.0.0.1", port=8000)
