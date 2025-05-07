@@ -34,7 +34,7 @@ async def index(request: Request):
 async def index(request: Request):
     return templates.TemplateResponse("register/loginpage.html", {"request": request})
 
-@app.post('/user/register')
+@app.get('/user/register')
 async def user_register(email: str, password: str, name: str, surname: str, birthdate: str, phone_number = None, city = None, country = None):
     data = await user_create(email, password, name, surname, birthdate, phone_number, city, country)
     if data is None:
