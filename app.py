@@ -1,7 +1,7 @@
 #This will serve as our main file for the application
 
-import asyncio
-import aiohttp
+# import asyncio
+# import aiohttp
 import uvicorn
 from fastapi import FastAPI, Request
 import json
