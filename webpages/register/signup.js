@@ -5,9 +5,9 @@ document.getElementById("signupForm").addEventListener("submit", async function 
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     const phone = document.getElementById("phone").value;
-  
+
     try {
-      const response = await fetch("https://fussioncord.onrender.com/", {
+      const response = await fetch("https://fussioncord.onrender.com/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
