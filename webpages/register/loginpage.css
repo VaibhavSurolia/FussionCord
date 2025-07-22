@@ -5,17 +5,25 @@
  
     * {
       box-sizing: border-box;
+      animation: animateBg 15s linear infinite;
     }
     
    
 
     body {
       font-family: 'Poppins', sans-serif;
-      background-image: url(/webpages/register/photo_2025-05-06_22-22-18.jpg);
+      background-image: url('/webpages/register/photo_2025-05-06_22-22-18.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       margin: 0;
       padding: 0;
+
+    }
+
+    @keyframes animateBg {
+      100% {
+        filter: hue-rotate(360deg);
+      }
     }
 
     
@@ -57,9 +65,12 @@
       width: 100%;
       padding: 12px;
       margin-top: 5px;
-      border: 1px solid #ccc;
+      /* border: 1px solid #ccc; */
       border-radius: 8px;
       font-size: 14px;
+      background: transparent;
+      color: whitesmoke;
+      outline: none;
     }
 
   
@@ -98,3 +109,4 @@
       background-color: white;
     }
     
+
