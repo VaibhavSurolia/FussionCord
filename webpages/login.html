@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fussioncord</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login to your account</h2>
+        <form method="post" class="loginForm" id="loginForm">
+            <label for="email">Email Address </label>
+            <input type="email" id="email" name="email" placeholder="" required>
+
+            <label for="password">Password </label>
+            <input type="password" id="password" name="password" placeholder="" required>
+
+            <button type="submit" class="btn">Login</button>
+
+            <p class="message">Don't have an account? 
+                <a href="/webpages/register.html">Register</a>
+            </p>
+        </form>
+    </div>
+    <script src="loginpage.js"></script>
+</body>
+</html>

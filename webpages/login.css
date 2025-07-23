@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: animateBg 15s linear infinite;
+}
+
+    /* @keyframes animateBg {
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    } */
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('360_F_691051962_GFhQPOAXABmf7l706q89b2PFh6FnB1kI.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+
+    }
+
+
+
+    .form-container {
+      max-width: 400px;
+      margin: 100px auto;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);         
+      -webkit-backdrop-filter: blur(10px);  
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2); 
+      border: 1px solid rgba(255, 255, 255, 0.2); 
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: whitesmoke;
+    }
+
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+      color: whitesmoke ;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 5px;
+      /* border: 1px solid #ccc; */
+      border-radius: 8px;
+      font-size: 14px;
+      background: transparent;
+      color: whitesmoke;
+      outline: none;
+    }
+
+    .btn {
+      margin-top: 25px;
+      width: 100%;
+      padding: 14px;
+      background-color: #0c6991;
+      color: #cdcdcd;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .message {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .message a {
+      color: #00b3ff;
+    }
+
+    .message a:hover {
+      text-decoration: underline;
+    }
